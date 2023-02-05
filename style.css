@@ -1,0 +1,288 @@
+@Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Poppins:wght@400;500;600;700&Display=Swap");
+* {
+  Margin: 0;
+  Padding: 0;
+  Box-Sizing: Border-Box;
+  Font-Family: "Poppins", Sans-Serif;
+}
+A {
+  Text-Decoration: None;
+}
+.Hero {
+  Width: 100%;
+  Height: 100vh;
+  Background: Url(Img/Bg.Png);
+  Background-Size: Cover;
+}
+Nav {
+  Display: Flex;
+  Align-Items: Center;
+  Justify-Content: Space-Between;
+  Padding: 30px 100px;
+}
+.Logo {
+  Max-Height: 60px;
+}
+Nav Ul Li {
+  List-Style: None;
+  Display: Inline-Block;
+  Padding: 10px 20px;
+}
+Nav Ul Li A {
+  Color: #1d1d24;
+  Position: Relative;
+  Padding: 5px 0;
+}
+Nav Ul Li A:hover {
+  Color: #Fd4766;
+}
+Nav Ul Li A:after {
+  Content: "";
+  Position: Absolute;
+  Left: 0;
+  Width: 0;
+  Height: 3px;
+  Background: #Fd4766;
+  Transition: 0.3s;
+  Bottom: 0;
+}
+Nav Ul Li A:hover:after {
+  Width: 100%;
+}
+.Btn {
+  Color: #Fff;
+  Font-Size: 16px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 2px;
+  Padding: 16px 40px;
+  Border-Radius: 500px;
+  Display: Inline-Block;
+  Font-Weight: 500;
+  Transition: All 0.4s Ease-In-Out;
+  Background-Size: 152% 100%;
+  Background: #Fd4766;
+  Border: 2px Solid #Fd4766;
+}
+.Btn:hover {
+  Background: Transparent;
+  Border-Color: #Fd4766;
+  Color: #Fd4766;
+}
+.Content {
+  Position: Absolute;
+  Top: 35%;
+  Left: 8%;
+}
+.Content .Title {
+  Color: #0a0a0a;
+  Font-Size: 15px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 4px;
+  Display: Inline-Block;
+  Margin-Bottom: 20px;
+  Background: Linear-Gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #Fd4766 79.69%
+  );
+  -Webkit-Background-Clip: Text;
+  -Webkit-Text-Fill-Color: Transparent;
+}
+.Content H1 {
+  Color: #1f1f25;
+  Font-Size: 50px;
+  Font-Weight: 900;
+  Line-Height: 90px;
+  Text-Transform: Inherit;
+  Width: 100%;
+}
+.Content H1 Span {
+  Color: #Fd4766;
+}
+.Content P {
+  Width: 90%;
+  Color: #202020;
+  Margin-Top: 25px;
+  Margin-Bottom: 30px;
+}
+.Content H2 {
+  Color: #1f1f25;
+  Font-Size: 30px;
+  Font-Weight: 650;
+  Line-Height: 60px;
+  Text-Transform: Inherit;
+  Width: 100%;
+}
+.Content H2 Span {
+  Color: #Fd4766;
+}
+.Content H3 {
+  Color: #1f1f25;
+  Font-Size: 30px;
+  Font-Weight: 650;
+  Line-Height: 60px;
+  Text-Transform: Inherit;
+  Width: 100%;
+}
+.Content H3 Span {
+  Color: #Fd4766;
+}
+.Content H4 {
+  Color: #1f1f25;
+  Font-Size: 30px;
+  Font-Weight: 650;
+  Line-Height: 60px;
+  Text-Transform: Inherit;
+  Width: 100%;
+}
+.Content H4 Span {
+  Color: #Fd4766;
+}
+.Content label {
+  Color: #1f1f25;
+  Font-Size: 30px;
+  Font-Weight: 700;
+  Line-Height: 60px;
+  Text-Transform: Inherit;
+  Width: 100%;
+}
+.Content button {
+  Color: #Fff;
+  Font-Size: 16px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 2px;
+  Padding: 16px 40px;
+  Border-Radius: 500px;
+  Display: Inline-Block;
+  Font-Weight: 500;
+  Transition: All 0.4s Ease-In-Out;
+  Background-Size: 152% 100%;
+  Background: #Fd4766;
+  Border: 2px Solid #Fd4766;
+}
+.Content H5 {
+  Color: #1f1f25;
+  Font-Size: 50px;
+  Font-Weight: 900;
+  Line-Height: 90px;
+  Text-Transform: Inherit;
+  Width: 70%;
+}
+.Content H5 Span {
+  Color: #Fd4766;
+}
+.Content H6 {
+  Color: #1f1f25;
+  Font-Size: 30px;
+  Font-Weight: 900;
+  Line-Height: 50px;
+  Text-Transform: Inherit;
+  Width: 70%;
+}
+.Content H6 Span {
+  Color: #Fd4766;
+}
+.Content H7 {
+  Color: #1f1f25;
+  Font-Size: 30px;
+  Font-Weight: 900;
+  Line-Height: 50px;
+  Text-Transform: Inherit;
+  Width: 70%;
+}
+.Content H7 Span {
+  Color: #Fd4766;
+}
+.Content H8 {
+  Color: #1f1f25;
+  Font-Size: 30px;
+  Font-Weight: 900;
+  Line-Height: 50px;
+  Text-Transform: Inherit;
+  Width: 70%;
+}
+.Content H8 Span {
+  Color: #Fd4766;
+}
+.Content H9 {
+  Color: #1f1f25;
+  Font-Size: 30px;
+  Font-Weight: 900;
+  Line-Height: 50px;
+  Text-Transform: Inherit;
+  Width: 70%;
+}
+.Content H9 Span {
+  Color: #Fd4766;
+}
+.Photo {
+  Max-Height: 410px;
+	width: 410px; /* specify the width of the image */
+    height: 410px; /* specify the height of the image */
+    float: right; /* float the image to the right side of the page */
+    margin: 50px; /* add a margin of 10px around the image */
+}
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  float: right;
+  margin: 40px;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-linkedin {
+  background: none;
+  color: black;
+}
+
+.fa-instagram {
+  background: none;
+  color: black;
+}
+.fa-facebook {
+  background: none;
+  color: black;
+}
+.fa-whatsapp {
+  background: none;
+  color: black;
+}
+.fa-google {
+  background: none;
+  color: black;
+}
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.photos {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photos img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 10px;
+}
